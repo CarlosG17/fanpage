@@ -24,4 +24,21 @@ a {
 .header{
     color:#FFFF00;
     font-size:100px;
+    background-color:orange;
 }
+.navbar{
+    display:flex;
+    justify-content: center;
+    justify-content: space-between;
+    
+}
+body{
+    background-image: url(https://static0.cbrimages.com/wp-content/uploads/2018/10/Tobey-Maguire-Peter-Parker-pizza-Spider-Man.jpg?q=35&w=984&h=518&fit=crop);
+    background-size: 50%;
+}
+
+
+
+
+
+
