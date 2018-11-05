@@ -12,14 +12,16 @@ a {
 
 .main {
     height: 100%;
+     background-image: url(https://static0.cbrimages.com/wp-content/uploads/2018/10/Tobey-Maguire-Peter-Parker-pizza-Spider-Man.jpg?q=35&w=984&h=518&fit=crop);
+    
 }
 .social-image{
     width: 30px;
     margin: 15px;
 }
 .thumbnail-image{
-    height:350px;
-    width:350px;
+    height:500px;
+    width:400px;
     display:flex;
     justify-content:space-around;
     justify-content:space-between;
@@ -29,6 +31,8 @@ a {
     font-size:100px;
     background-color:orange;
     opacity:.75;
+    display:flex;
+    justify-content:center;
 }
 .navbar{
     display:flex;
@@ -36,7 +40,6 @@ a {
     justify-content: space-between;
     color:orange;
     background-color:red;
-    
 }
 body{
     background-image: url(https://static0.cbrimages.com/wp-content/uploads/2018/10/Tobey-Maguire-Peter-Parker-pizza-Spider-Man.jpg?q=35&w=984&h=518&fit=crop);
@@ -55,14 +58,36 @@ body{
     justify-content:flex-start;
 }
 .footer{
-    opacity:.0;
+background-color:white;
+display:flex;
+justify-content:center;
 }
 .fhumbnail-image{
     height:200px;
     display:flex;
     justify-content:flex-end;
+}
+    .leftPane{
+        color:black;
+        background-color: red;
+        font-size:20px;
+    }
+     .rightPane{
+        color:black;
+        background-color: red;
+        font-size:20px;
+    }
+    .gif{
+        display:flex;
+        justify-content:space-around;
+        justify-content:space-between;
+        justify-content:center;
+    }
 
-
-
-
+h1{
+    color:white;
+    background-color:red;
+    display:flex;
+    justify-content:center;
+}
 
